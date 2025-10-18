@@ -1,0 +1,61 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e4e8ea;
+  color: #333;
+}
+
+header {
+  background-color: #328e96;
+  color: white; 
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header span {
+  color: #a3ff66;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #4a90e2;
+  border-bottom: 2px solid #4a90e2;
+  display: inline-block;
+  padding-bottom: 5px;
+
+}
+
+.project {
+  background: rgb(91, 201, 201);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.profile-photo {
+  width: 200px;               /* adjust width */
+  height: 250px;              /* slightly taller to make it oval */
+  border-radius: 50% / 40%;   /* this makes it a smooth oval shape */
+  object-fit: cover;          /* keeps your face centered and clear */
+  border: 5px solid #ffe066;  /* golden border */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin: 0 auto 1rem;
+  transition: transform 0.3s ease;
+}
+
+
